@@ -1,0 +1,251 @@
+/* css reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* micro clearfix */
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+.cf {
+  *zoom: 1;
+}
+
+/* style ku */
+
+body {
+  background-color: #e0dad3;
+}
+.container {
+  margin: auto;
+  width: 800px;
+  background-color: #f4f1ec;
+}
+.header .judul-web {
+  color: #494847;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 20px;
+}
+.header .navigasi ul li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.header .navigasi ul li a {
+  text-decoration: none;
+  padding: 4px;
+  color: #494847;
+}
+.header .navigasi ul li a:hover {
+  background-color: bisque;
+}
+.gambar-artikel {
+  background-image: url(../img/hero.png);
+  height: 400px;
+  background-size: cover;
+  background-position: 0 -70px;
+  border-top: 4px solid coral;
+  border-bottom: 4px solid coral;
+}
+.konten {
+  margin: 10px;
+  width: 450px;
+  background-color: #dfdfdf;
+  border-radius: 10px;
+  float: left;
+}
+.bio-penulis {
+  margin: 10px;
+  width: 310px;
+  background-color: #dfdfdf;
+  border-radius: 10px;
+  float: right;
+}
+.bio-penulis .profile-penulis{
+  float: left;
+  padding: 10px;
+}
+.bio-penulis .profile-penulis img{
+  height: 80px;
+}
+.bio-penulis .isi-bio{
+  padding: 20px;
+}
+.judul-konten {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.judul-konten h2 {
+  padding-left: 20px;
+  padding-bottom: 12px;
+  font-size: 25px;
+  color: #494847;
+  font-weight: bold;
+}
+.judul-konten p {
+  font-size: 14px;
+  margin-left: 20px;
+}
+.isi-konten {
+  padding: 10px 10px 20px 20px;
+}
+.isi-konten p {
+  padding-bottom: 15px;
+}
+.footer {
+  background-color: #31302f;
+}
+.footer p {
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
